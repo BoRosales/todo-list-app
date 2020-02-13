@@ -1,0 +1,36 @@
+.todo-container {
+    padding: 70px 0;
+    text-align: center;
+    border-color: lightcoral;
+    border-style: solid;
+    background-color: mintcream;
+}
+
+h2 {
+    color: goldenrod;
+}
+
+/* Input Styles */
+.add-items {
+    font-size: 1.2em;
+}
+
+input[type=text] {
+    border-color: goldenrod;
+    border-style: solid;
+    background-color: lightcoral;
+    font-size: 1.2em;
+}
+
+input::placeholder {
+    color: rgb(21, 92, 133);
+}
+
+.save-btn {
+    margin-left: 10px;
+    color:  rgb(21, 92, 133);
+    border-color: goldenrod;
+    background-color: lightcoral;
+    font-size: 1.2em;
+    border-style: solid;
+}

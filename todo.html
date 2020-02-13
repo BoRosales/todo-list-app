@@ -5,8 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List App</title>
     <link rel="stylesheet" type="text/css" href="todo.css"> 
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    
+
+    <div class="todo-container">
+        <h2>To-Do List</h2>        
+        <div class="add-items">
+            <input id="add-item" type="text" placeholder="ToDo Item #1" minlength="4" maxlength="20" required/>
+            <button class="save-btn" onclick="getInputVal()"><i class="fa fa-save fa-lg"></i></button>
+
+            <ul id="todo-tasks"> 
+            
+            </ul>
+        </div>
+
+
+    </div>
+
+    <script src="todo.js"></script>
 </body>
 </html>
