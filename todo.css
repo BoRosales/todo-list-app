@@ -4,9 +4,10 @@
     border-color: lightcoral;
     border-style: solid;
     background-color: mintcream;
+    font-family: 'Sriracha', cursive;
 }
 
-h2 {
+h1 {
     color: goldenrod;
 }
 
@@ -20,6 +21,7 @@ input[type=text] {
     border-style: solid;
     background-color: lightcoral;
     font-size: 1.2em;
+    font-family: 'Sriracha', cursive;
 }
 
 input::placeholder {
@@ -33,4 +35,24 @@ input::placeholder {
     background-color: lightcoral;
     font-size: 1.2em;
     border-style: solid;
+    font-family: 'Sriracha', cursive;
+}
+
+/* List Styles */
+#todo.tasks{
+    vertical-align: middle;
+    display: inline-block;
+    text-align: left;
+    margin:0 auto;
+}
+
+li {
+    color: lightcoral;
+}
+
+li button {
+    border-style: solid;
+    background-color: lightcoral;
+    color: goldenrod;
+    border-color:goldenrod;
 }

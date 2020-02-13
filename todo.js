@@ -1,4 +1,4 @@
-todoInput = "";
+var todoInput = "";
 
 function getInputVal() {
     todoInput = document.getElementById("add-item").value.trim(); 
@@ -15,4 +15,8 @@ function addToList(input) {
     listItem.appendChild(document.createTextNode(input));
     list.appendChild(listItem)
     console.log(input);
+
+    var deleteBtn = document.createElement("button");
+    deleteBtn.appendChild(document.createTextNode("delete"));
+    listItem.appendChild(deleteBtn);
 }
