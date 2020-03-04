@@ -1,4 +1,5 @@
 var todoInput = "";
+var todoCount = 0;
 
 function getInputVal() {
     todoInput = document.getElementById("add-item").value.trim(); 
@@ -19,4 +20,14 @@ function addToList(input) {
     var deleteBtn = document.createElement("button");
     deleteBtn.appendChild(document.createTextNode("delete"));
     listItem.appendChild(deleteBtn);
+}
+
+// TODO: Update counter on UI, that will say what todo task you are on
+function updateCounter(todoCount) {
+
+}
+
+// TODO: Delete button next to task. 
+function deleteTask() {
+
 }
